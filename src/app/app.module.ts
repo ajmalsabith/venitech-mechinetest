@@ -3,10 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { MydirectDirective } from './mydirect.directive';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    MydirectDirective
   ],
   imports: [
     BrowserModule,

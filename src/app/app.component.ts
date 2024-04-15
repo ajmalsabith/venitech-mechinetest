@@ -34,6 +34,7 @@ export class AppComponent implements OnInit{
 
   removepopup(){
     this.ishoww=false
+    this.registerform.reset()
   }
   editset(i:number){
     this.ishoww=true
